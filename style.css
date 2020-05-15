@@ -1,0 +1,56 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 199, 169);
+}
+ div > .row > a> img{
+     box-shadow: 2px 2px 4px black;
+     transition:.5s;
+ }
+
+ div > .row > a> img:hover{
+     transition-duration: .5s;
+     transform: scale(1.1);
+ }
+
+ 
+.jumbotron{
+    background-image: url("grass.png");
+    background-position: 100% 100%;
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron >.container > h1{
+    font-size: 80px;
+    text-shadow: 2px 3px 4px black;
+}
+
+.jumbotron >.container > p{
+    font-size: 30px;
+    text-shadow: 2px 3px 4px black;
+}
+
+@media (max-width:768px){
+    .jumbotron > .container > h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:425px){
+    .jumbotron >.container > h1{
+    font-size: 30px;
+    padding-top: 50px;
+}
+    .jumbotron >.container > p{
+    font-size: 15px;
+    text-shadow: 2px 3px 4px black;
+  }
+
+  .jumbotron{
+      height:300px;
+  }
+}
+
+
+
