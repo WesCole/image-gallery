@@ -76,11 +76,10 @@ html, body{
     }
 
     .jumbotron >.container > h1{
-    font-size: 30px;
-    padding-top: 10px;
+    font-size: 70px;
 }
     .jumbotron >.container > p{
-    font-size: 10px;
+    font-size: 15px;
     text-shadow: 2px 3px 4px black;
   }
 
@@ -92,5 +91,16 @@ html, body{
 .gallery{
     background-color: black;
     padding-top:30px;
+}
+
+@media (max-width: 325px){
+        .jumbotron >.container > h1{
+    font-size: 55px;
+}
+    .jumbotron >.container > p{
+    font-size: 12px;
+    text-shadow: 2px 3px 4px black;
+  }
+
 }
 
