@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: rgb(199, 199, 169);
+    background-color: rgb(0, 0, 0);
 }
  div > .row > a> img{
      box-shadow: 2px 2px 4px black;
@@ -11,6 +11,16 @@ html, body{
  div > .row > a> img:hover{
      transition-duration: .5s;
      transform: scale(1.1);
+ }
+ 
+.carousel-inner{
+     background: black;
+     padding:25px;
+ }
+
+ .carousel-inner h5, p{
+    color: black;
+    font-size: 1.5rem;
  }
 
  .navbar{
@@ -60,13 +70,27 @@ html, body{
 
 .jumbotron >.container > p{
     font-size: 30px;
+    color:white;
     text-shadow: 2px 3px 4px black;
+}
+
+footer{
+    background: black;
+    color:white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:768px){
     .jumbotron > .container > h1{
         font-size: 50px;
     }
+    .carousel-inner h5, p{
+    display:none;
+ }
+
 }
 
 @media (max-width:425px){
